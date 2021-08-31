@@ -1,0 +1,198 @@
+---
+title: Assignment
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+<main class="main">
+  <section class="p-5">
+    <div class="d-flex justify-content-between text-dark mb-5">
+      <div class="header-title d-flex align-items-center">
+        <h2 class="navbar-brand fw-bold me-6 fs-4">Admin</h2>
+        <a href="#" class="link-dark d-flex align-items-center fw-bold">
+          <span class="material-icons me-2 text-success"> add </span>
+          Add New Admin
+        </a>
+      </div>
+      <div>
+        <span class="material-icons navbar-text link-dark me-4 "> search </span>
+        <span class="material-icons navbar-text link-dark"> notifications_active </span>
+      </div>
+    </div>
+    <!-- table -->
+    <table class="table mb-7 text-dark">
+      <thead>
+        <tr>
+          <th class="col-md-1" scope="col">
+            ID<a href="#" class="ms-2"><span class="material-icons text-success font-size-sm"> arrow_downward
+              </span></a>
+          </th>
+          <th class="col-md-3" scope="col">Name</th>
+          <th class="col-md-4" scope="col">Email</th>
+          <th class="col-md-4" scope="col" colspan="2">Verified</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td scope="row">#1</td>
+          <td>Emir Wicks</td>
+          <td>emir.wicks@mail.com</td>
+          <td>Yes</td>
+          <td class="text-end">
+            <button type="button" class="btn link-dark">
+              <span class="material-icons"> visibility </span>
+            </button>
+            <button type="button" class="btn link-dark">
+              <span class="material-icons"> edit </span>
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td scope="row">#2</td>
+          <td>Zaina Goldsmith</td>
+          <td>zaina.goldsmith@mail.com</td>
+          <td>Yes</td>
+          <td class="text-end">
+            <button type="button" class="btn link-dark">
+              <span class="material-icons"> visibility </span>
+            </button>
+            <button type="button" class="btn link-dark">
+              <span class="material-icons"> edit </span>
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td scope="row">#3</td>
+          <td>Mahima Lopez</td>
+          <td>mahima.lopez@mail.com</td>
+          <td>Yes</td>
+          <td class="text-end">
+            <button type="button" class="btn link-dark">
+              <span class="material-icons"> visibility </span>
+            </button>
+            <button type="button" class="btn link-dark">
+              <span class="material-icons"> edit </span>
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td scope="row">#4</td>
+          <td>Pharrell Murray</td>
+          <td>pharrell.murray@mail.com</td>
+          <td>Yes</td>
+          <td class="text-end">
+            <button type="button" class="btn link-dark">
+              <span class="material-icons"> visibility </span>
+            </button>
+            <button type="button" class="btn link-dark">
+              <span class="material-icons"> edit </span>
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td scope="row">#5</td>
+          <td>Annika Mcbride</td>
+          <td>annika.mcbride@mail.com</td>
+          <td>Yes</td>
+          <td class="text-end">
+            <button type="button" class="btn link-dark">
+              <span class="material-icons"> visibility </span>
+            </button>
+            <button type="button" class="btn link-dark">
+              <span class="material-icons"> edit </span>
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td scope="row">#6</td>
+          <td>Fatimah Clark</td>
+          <td>fatimah.clark@mail.com</td>
+          <td>Yes</td>
+          <td class="text-end">
+            <button type="button" class="btn link-dark">
+              <span class="material-icons"> visibility </span>
+            </button>
+            <button type="button" class="btn link-dark">
+              <span class="material-icons"> edit </span>
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td scope="row">#7</td>
+          <td>Klaudia Rhodes</td>
+          <td>klaudia.rhodes@mail.com</td>
+          <td>Yes</td>
+          <td class="text-end">
+            <button type="button" class="btn link-dark">
+              <span class="material-icons"> visibility </span>
+            </button>
+            <button type="button" class="btn link-dark">
+              <span class="material-icons"> edit </span>
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td scope="row">#8</td>
+          <td>Tillie Lucero</td>
+          <td>tillie.lucero@mail.com</td>
+          <td>Yes</td>
+          <td class="text-end">
+            <button type="button" class="btn link-dark">
+              <span class="material-icons"> visibility </span>
+            </button>
+            <button type="button" class="btn link-dark">
+              <span class="material-icons"> edit </span>
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td scope="row">#9</td>
+          <td>Sabrina Stephenson</td>
+          <td>sabrina.stephenson@mail.com</td>
+          <td>Yes</td>
+          <td class="text-end">
+            <button type="button" class="btn link-dark">
+              <span class="material-icons"> visibility </span>
+            </button>
+            <button type="button" class="btn link-dark">
+              <span class="material-icons"> edit </span>
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td scope="row">#10</td>
+          <td>Annie Smith</td>
+          <td>annie.smith@mail.com</td>
+          <td>Yes</td>
+          <td class="text-end">
+            <button type="button" class="btn link-dark">
+              <span class="material-icons"> visibility </span>
+            </button>
+            <button type="button" class="btn link-dark">
+              <span class="material-icons"> edit </span>
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- pagination -->
+    <nav aria-label="Page navigation example">
+      <ul class="pagination d-flex justify-content-end">
+        <li class="page-item border border-success rounded-start">
+          <a class="page-link text-success" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+          </a>
+        </li>
+        <li class="page-item active border border-success"><a class="page-link bg-success" href="#">1</a></li>
+        <li class="page-item border border-success"><a class="page-link text-dark" href="#">2</a></li>
+        <li class="page-item border border-success"><a class="page-link text-dark" href="#">3</a></li>
+        <li class="page-item border border-success rounded-end">
+          <a class="page-link text-success" href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </section>
+</main>
