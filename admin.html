@@ -1,10 +1,61 @@
----
-title: Assignment
-layout: ./app/layout.ejs
-engine: ejs
-current: index
----
-<main class="main">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>
+    Assignment
+  </title>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/style/all.css" />
+</head>
+
+<body>
+  <nav class="aside-nav d-flex flex-column justify-content-between">
+    <div>
+      <h1 class=" mb-4"><a href="#" class="logo link-dark">ANSWER</a></h1>
+      <ul class="nav text-dark flex-column fw-bold">
+        <li class="nav-item mb-4 link-hover">
+          <a class="nav-link d-flex align-items-center link-dark p-0" aria-current="page" href="./index.html"><span
+              class="material-icons me-3"> assessment </span>Dashboard</a>
+        </li>
+        <li class="nav-item mb-4">
+          <a class="nav-link d-flex align-items-center link-dark p-0" href="#"><span class="material-icons me-3">
+              question_answer </span>Question</a>
+        </li>
+        <li class="nav-item mb-4">
+          <a class="nav-link d-flex align-items-center link-dark p-0" href="#"><span class="material-icons me-3">
+              assignment
+            </span>Assignment</a>
+        </li>
+        <li class="nav-item mb-4">
+          <a class="nav-link d-flex align-items-center link-dark p-0" href="#" tabindex="-1" aria-disabled="true"><span
+              class="material-icons me-3"> video_library </span>Course</a>
+        </li>
+        <li class="nav-item mb-4">
+          <a class="nav-link d-flex align-items-center active text-success p-0" href="./admin.html"><span
+              class="material-icons me-3">
+              supervisor_account
+            </span>Admin</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link d-flex align-items-center link-dark p-0" href="#"><span class="material-icons me-3">
+              settings
+            </span>Settings</a>
+        </li>
+      </ul>
+    </div>
+    <div class="aside-footer d-flex">
+      <img class="profile-image me-3" src="./assets/images/andychen.jpeg" alt="andy chen" />
+      <div>
+        <h6 class="mb-1 fw-bold text-dark">Andy Chen</h6>
+        <a href="#" class="font-size-sm link-secondary">andy0401@mail.com</a>
+      </div>
+    </div>
+  </nav>
+  <main class="main">
   <section class="p-5">
     <div class="d-flex justify-content-between text-dark mb-5">
       <div class="header-title d-flex align-items-center">
@@ -196,3 +247,9 @@ current: index
     </nav>
   </section>
 </main>
+
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+</body>
+
+</html>

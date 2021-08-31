@@ -1,0 +1,1 @@
+{"version":3,"sources":["pages/admin.scss","pages/admin.css"],"names":[],"mappings":"AAAA;EACE,kBAAkB;ACCpB","file":"admin.css","sourcesContent":[".main {\r\n  margin-left: 300px;\r\n}\r\n",".main {\n  margin-left: 300px;\n}\n"]}
